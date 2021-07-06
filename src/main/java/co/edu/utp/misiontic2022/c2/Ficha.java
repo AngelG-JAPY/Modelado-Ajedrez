@@ -19,7 +19,9 @@ public abstract class Ficha {
 
     //Métodos.
 
-    public abstract boolean comer();
+    public boolean comer(){
+        return true;
+    }
 
     public abstract boolean mover();
 }
