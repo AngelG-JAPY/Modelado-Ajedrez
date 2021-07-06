@@ -1,14 +1,10 @@
 package co.edu.utp.misiontic2022.c2;
 
-public class Ficha {
+public abstract class Ficha {
     
     private String color;
 
-    public  boolean comer(){
-        return true;
-    }
+    public abstract boolean comer();
 
-    public boolean mover(){
-        return true;
-    }
+    public abstract boolean mover();
 }
